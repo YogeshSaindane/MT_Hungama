@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191B69C316E924EE44663076 /* Pods_Yogesh_Hungama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43ECE3DA52D77332F5CEF0 /* Pods_Yogesh_Hungama.framework */; };
+		30B3B72F846D1E3B8E48D955 /* Pods_Yogesh_HungamaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90670132A975CF27E68E6AD /* Pods_Yogesh_HungamaTests.framework */; };
+		5459714A6BA8DA31B99C887B /* Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97D1C9CE12F9F20F214CBAE /* Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework */; };
+		D446639526A4635000314483 /* MovieCreditClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446639426A4635000314483 /* MovieCreditClass.swift */; };
+		D446639A26A4646600314483 /* MovieDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446639926A4646600314483 /* MovieDetailVM.swift */; };
+		D47F72D426A415E500C225EE /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F72D326A415E500C225EE /* NetworkServices.swift */; };
+		D47F72DD26A4161200C225EE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F72DC26A4161200C225EE /* Constant.swift */; };
+		D47F72E626A41A5100C225EE /* MovieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F72E526A41A5100C225EE /* MovieClass.swift */; };
+		D47F72FD26A4275100C225EE /* ProgressDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F72FC26A4275100C225EE /* ProgressDelegates.swift */; };
+		D47F730226A427D100C225EE /* MovieListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F730126A427D100C225EE /* MovieListVM.swift */; };
+		D47F732526A4307800C225EE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F732426A4307800C225EE /* Extension.swift */; };
+		D47F733626A434C200C225EE /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F733426A434C200C225EE /* MovieListTableViewCell.swift */; };
+		D47F733726A434C200C225EE /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47F733526A434C200C225EE /* MovieListTableViewCell.xib */; };
+		D47F734426A446A800C225EE /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F734226A446A800C225EE /* MovieDetailViewController.swift */; };
+		D47F734526A446A800C225EE /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47F734326A446A800C225EE /* MovieDetailViewController.xib */; };
+		D47F734E26A44C8400C225EE /* MovieGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F734D26A44C8400C225EE /* MovieGenre.swift */; };
+		D47F735326A4509400C225EE /* MovieLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F735226A4509400C225EE /* MovieLanguage.swift */; };
+		D49452A726A3EC0500D49E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49452A626A3EC0500D49E64 /* AppDelegate.swift */; };
+		D49452B126A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D49452AF26A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodeld */; };
+		D49452B326A3EC0700D49E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49452B226A3EC0700D49E64 /* Assets.xcassets */; };
+		D49452B626A3EC0700D49E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49452B426A3EC0700D49E64 /* LaunchScreen.storyboard */; };
+		D49452C126A3EC0700D49E64 /* Yogesh_HungamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49452C026A3EC0700D49E64 /* Yogesh_HungamaTests.swift */; };
+		D49452CC26A3EC0700D49E64 /* Yogesh_HungamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49452CB26A3EC0700D49E64 /* Yogesh_HungamaUITests.swift */; };
+		D49452E726A3EC5900D49E64 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49452E526A3EC5900D49E64 /* MovieListViewController.swift */; };
+		D49452E826A3EC5900D49E64 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49452E626A3EC5900D49E64 /* MovieListViewController.xib */; };
+		D49D909926A468DC0004B6DF /* MovieCreditCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D909726A468DC0004B6DF /* MovieCreditCollectionViewCell.swift */; };
+		D49D909A26A468DC0004B6DF /* MovieCreditCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49D909826A468DC0004B6DF /* MovieCreditCollectionViewCell.xib */; };
+		D49D90AB26A4AD7E0004B6DF /* UserdefaultsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D90AA26A4AD7E0004B6DF /* UserdefaultsClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49452BD26A3EC0700D49E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D494529B26A3EC0500D49E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49452A226A3EC0500D49E64;
+			remoteInfo = "Yogesh Hungama";
+		};
+		D49452C826A3EC0700D49E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D494529B26A3EC0500D49E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49452A226A3EC0500D49E64;
+			remoteInfo = "Yogesh Hungama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1423C6542C9F011021B98187 /* Pods-Yogesh HungamaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh HungamaTests.release.xcconfig"; path = "Target Support Files/Pods-Yogesh HungamaTests/Pods-Yogesh HungamaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E01AC9AD43D18EF70FE1B10 /* Pods-Yogesh Hungama-Yogesh HungamaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh Hungama-Yogesh HungamaUITests.release.xcconfig"; path = "Target Support Files/Pods-Yogesh Hungama-Yogesh HungamaUITests/Pods-Yogesh Hungama-Yogesh HungamaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D3AC657BD52B91705363AFC /* Pods-Yogesh Hungama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh Hungama.debug.xcconfig"; path = "Target Support Files/Pods-Yogesh Hungama/Pods-Yogesh Hungama.debug.xcconfig"; sourceTree = "<group>"; };
+		4D43ECE3DA52D77332F5CEF0 /* Pods_Yogesh_Hungama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogesh_Hungama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61570C71167C3F04D92CB5FA /* Pods-Yogesh Hungama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh Hungama.release.xcconfig"; path = "Target Support Files/Pods-Yogesh Hungama/Pods-Yogesh Hungama.release.xcconfig"; sourceTree = "<group>"; };
+		7406440E7C76F224BA3DACF1 /* Pods-Yogesh HungamaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh HungamaTests.debug.xcconfig"; path = "Target Support Files/Pods-Yogesh HungamaTests/Pods-Yogesh HungamaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90670132A975CF27E68E6AD /* Pods_Yogesh_HungamaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogesh_HungamaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D446639426A4635000314483 /* MovieCreditClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCreditClass.swift; sourceTree = "<group>"; };
+		D446639926A4646600314483 /* MovieDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVM.swift; sourceTree = "<group>"; };
+		D47F72D326A415E500C225EE /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		D47F72DC26A4161200C225EE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D47F72E526A41A5100C225EE /* MovieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClass.swift; sourceTree = "<group>"; };
+		D47F72FC26A4275100C225EE /* ProgressDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDelegates.swift; sourceTree = "<group>"; };
+		D47F730126A427D100C225EE /* MovieListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListVM.swift; sourceTree = "<group>"; };
+		D47F732426A4307800C225EE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D47F733426A434C200C225EE /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		D47F733526A434C200C225EE /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListTableViewCell.xib; sourceTree = "<group>"; };
+		D47F734226A446A800C225EE /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		D47F734326A446A800C225EE /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		D47F734D26A44C8400C225EE /* MovieGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenre.swift; sourceTree = "<group>"; };
+		D47F735226A4509400C225EE /* MovieLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLanguage.swift; sourceTree = "<group>"; };
+		D49452A326A3EC0500D49E64 /* Yogesh Hungama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yogesh Hungama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49452A626A3EC0500D49E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D49452B026A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yogesh_Hungama.xcdatamodel; sourceTree = "<group>"; };
+		D49452B226A3EC0700D49E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D49452B526A3EC0700D49E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D49452B726A3EC0700D49E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49452BC26A3EC0700D49E64 /* Yogesh HungamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yogesh HungamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49452C026A3EC0700D49E64 /* Yogesh_HungamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yogesh_HungamaTests.swift; sourceTree = "<group>"; };
+		D49452C226A3EC0700D49E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49452C726A3EC0700D49E64 /* Yogesh HungamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yogesh HungamaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49452CB26A3EC0700D49E64 /* Yogesh_HungamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yogesh_HungamaUITests.swift; sourceTree = "<group>"; };
+		D49452CD26A3EC0700D49E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49452E526A3EC5900D49E64 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		D49452E626A3EC5900D49E64 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
+		D49D909726A468DC0004B6DF /* MovieCreditCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCreditCollectionViewCell.swift; sourceTree = "<group>"; };
+		D49D909826A468DC0004B6DF /* MovieCreditCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCreditCollectionViewCell.xib; sourceTree = "<group>"; };
+		D49D90AA26A4AD7E0004B6DF /* UserdefaultsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserdefaultsClass.swift; sourceTree = "<group>"; };
+		E97D1C9CE12F9F20F214CBAE /* Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D09DBA0B2F54D7BF8E56FF /* Pods-Yogesh Hungama-Yogesh HungamaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogesh Hungama-Yogesh HungamaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yogesh Hungama-Yogesh HungamaUITests/Pods-Yogesh Hungama-Yogesh HungamaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49452A026A3EC0500D49E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191B69C316E924EE44663076 /* Pods_Yogesh_Hungama.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452B926A3EC0700D49E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B3B72F846D1E3B8E48D955 /* Pods_Yogesh_HungamaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452C426A3EC0700D49E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5459714A6BA8DA31B99C887B /* Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D47F72CF26A415D500C225EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D47F733E26A4468500C225EE /* MovieList */,
+				D47F734926A446AD00C225EE /* MovieDetail */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D47F72D826A415EA00C225EE /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				D47F72D326A415E500C225EE /* NetworkServices.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		D47F72E126A4161A00C225EE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D47F72DC26A4161200C225EE /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D47F72EA26A41B1500C225EE /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D47F72E526A41A5100C225EE /* MovieClass.swift */,
+				D47F734D26A44C8400C225EE /* MovieGenre.swift */,
+				D47F735226A4509400C225EE /* MovieLanguage.swift */,
+				D446639426A4635000314483 /* MovieCreditClass.swift */,
+				D49D90AA26A4AD7E0004B6DF /* UserdefaultsClass.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		D47F730626A4290F00C225EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D47F730126A427D100C225EE /* MovieListVM.swift */,
+				D446639926A4646600314483 /* MovieDetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D47F732026A4306500C225EE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D47F72FC26A4275100C225EE /* ProgressDelegates.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D47F733E26A4468500C225EE /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				D49452E526A3EC5900D49E64 /* MovieListViewController.swift */,
+				D49452E626A3EC5900D49E64 /* MovieListViewController.xib */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		D47F734926A446AD00C225EE /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D47F734226A446A800C225EE /* MovieDetailViewController.swift */,
+				D47F734326A446A800C225EE /* MovieDetailViewController.xib */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		D494529A26A3EC0500D49E64 = {
+			isa = PBXGroup;
+			children = (
+				D49452A526A3EC0500D49E64 /* Yogesh Hungama */,
+				D49452BF26A3EC0700D49E64 /* Yogesh HungamaTests */,
+				D49452CA26A3EC0700D49E64 /* Yogesh HungamaUITests */,
+				D49452A426A3EC0500D49E64 /* Products */,
+				EC291C6A8CB40CE7E26C7E88 /* Pods */,
+				F519EAAD9119F09734ECCA1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D49452A426A3EC0500D49E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49452A326A3EC0500D49E64 /* Yogesh Hungama.app */,
+				D49452BC26A3EC0700D49E64 /* Yogesh HungamaTests.xctest */,
+				D49452C726A3EC0700D49E64 /* Yogesh HungamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49452A526A3EC0500D49E64 /* Yogesh Hungama */ = {
+			isa = PBXGroup;
+			children = (
+				D49452A626A3EC0500D49E64 /* AppDelegate.swift */,
+				D47F732426A4307800C225EE /* Extension.swift */,
+				D49D908F26A468910004B6DF /* View */,
+				D47F732026A4306500C225EE /* Protocol */,
+				D47F730626A4290F00C225EE /* ViewModel */,
+				D47F72EA26A41B1500C225EE /* ModelClasses */,
+				D47F72E126A4161A00C225EE /* Constant */,
+				D47F72D826A415EA00C225EE /* NetworkServices */,
+				D47F72CF26A415D500C225EE /* Controller */,
+				D49452B226A3EC0700D49E64 /* Assets.xcassets */,
+				D49452B426A3EC0700D49E64 /* LaunchScreen.storyboard */,
+				D49452B726A3EC0700D49E64 /* Info.plist */,
+				D49452AF26A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodeld */,
+			);
+			path = "Yogesh Hungama";
+			sourceTree = "<group>";
+		};
+		D49452BF26A3EC0700D49E64 /* Yogesh HungamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D49452C026A3EC0700D49E64 /* Yogesh_HungamaTests.swift */,
+				D49452C226A3EC0700D49E64 /* Info.plist */,
+			);
+			path = "Yogesh HungamaTests";
+			sourceTree = "<group>";
+		};
+		D49452CA26A3EC0700D49E64 /* Yogesh HungamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D49452CB26A3EC0700D49E64 /* Yogesh_HungamaUITests.swift */,
+				D49452CD26A3EC0700D49E64 /* Info.plist */,
+			);
+			path = "Yogesh HungamaUITests";
+			sourceTree = "<group>";
+		};
+		D49D908F26A468910004B6DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D49D909326A468990004B6DF /* TableViewCells */,
+				D49D909E26A468E90004B6DF /* CollectionViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D49D909326A468990004B6DF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D47F733426A434C200C225EE /* MovieListTableViewCell.swift */,
+				D47F733526A434C200C225EE /* MovieListTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		D49D909E26A468E90004B6DF /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D49D909726A468DC0004B6DF /* MovieCreditCollectionViewCell.swift */,
+				D49D909826A468DC0004B6DF /* MovieCreditCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		EC291C6A8CB40CE7E26C7E88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AC657BD52B91705363AFC /* Pods-Yogesh Hungama.debug.xcconfig */,
+				61570C71167C3F04D92CB5FA /* Pods-Yogesh Hungama.release.xcconfig */,
+				F7D09DBA0B2F54D7BF8E56FF /* Pods-Yogesh Hungama-Yogesh HungamaUITests.debug.xcconfig */,
+				2E01AC9AD43D18EF70FE1B10 /* Pods-Yogesh Hungama-Yogesh HungamaUITests.release.xcconfig */,
+				7406440E7C76F224BA3DACF1 /* Pods-Yogesh HungamaTests.debug.xcconfig */,
+				1423C6542C9F011021B98187 /* Pods-Yogesh HungamaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F519EAAD9119F09734ECCA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D43ECE3DA52D77332F5CEF0 /* Pods_Yogesh_Hungama.framework */,
+				E97D1C9CE12F9F20F214CBAE /* Pods_Yogesh_Hungama_Yogesh_HungamaUITests.framework */,
+				B90670132A975CF27E68E6AD /* Pods_Yogesh_HungamaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49452A226A3EC0500D49E64 /* Yogesh Hungama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49452D026A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh Hungama" */;
+			buildPhases = (
+				F039783F6BC8A77A3BFCADB6 /* [CP] Check Pods Manifest.lock */,
+				D494529F26A3EC0500D49E64 /* Sources */,
+				D49452A026A3EC0500D49E64 /* Frameworks */,
+				D49452A126A3EC0500D49E64 /* Resources */,
+				9FAF2B717DB5EC4C5C82C3BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yogesh Hungama";
+			productName = "Yogesh Hungama";
+			productReference = D49452A326A3EC0500D49E64 /* Yogesh Hungama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49452BB26A3EC0700D49E64 /* Yogesh HungamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49452D326A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh HungamaTests" */;
+			buildPhases = (
+				CBC579013575C1693796A14B /* [CP] Check Pods Manifest.lock */,
+				D49452B826A3EC0700D49E64 /* Sources */,
+				D49452B926A3EC0700D49E64 /* Frameworks */,
+				D49452BA26A3EC0700D49E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49452BE26A3EC0700D49E64 /* PBXTargetDependency */,
+			);
+			name = "Yogesh HungamaTests";
+			productName = "Yogesh HungamaTests";
+			productReference = D49452BC26A3EC0700D49E64 /* Yogesh HungamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D49452C626A3EC0700D49E64 /* Yogesh HungamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49452D626A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh HungamaUITests" */;
+			buildPhases = (
+				551C90087C09BF9B40511C8D /* [CP] Check Pods Manifest.lock */,
+				D49452C326A3EC0700D49E64 /* Sources */,
+				D49452C426A3EC0700D49E64 /* Frameworks */,
+				D49452C526A3EC0700D49E64 /* Resources */,
+				1B2FF2E1CD23F28ECC84317C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49452C926A3EC0700D49E64 /* PBXTargetDependency */,
+			);
+			name = "Yogesh HungamaUITests";
+			productName = "Yogesh HungamaUITests";
+			productReference = D49452C726A3EC0700D49E64 /* Yogesh HungamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D494529B26A3EC0500D49E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D49452A226A3EC0500D49E64 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D49452BB26A3EC0700D49E64 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D49452A226A3EC0500D49E64;
+					};
+					D49452C626A3EC0700D49E64 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D49452A226A3EC0500D49E64;
+					};
+				};
+			};
+			buildConfigurationList = D494529E26A3EC0500D49E64 /* Build configuration list for PBXProject "Yogesh Hungama" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D494529A26A3EC0500D49E64;
+			productRefGroup = D49452A426A3EC0500D49E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49452A226A3EC0500D49E64 /* Yogesh Hungama */,
+				D49452BB26A3EC0700D49E64 /* Yogesh HungamaTests */,
+				D49452C626A3EC0700D49E64 /* Yogesh HungamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49452A126A3EC0500D49E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47F734526A446A800C225EE /* MovieDetailViewController.xib in Resources */,
+				D49452E826A3EC5900D49E64 /* MovieListViewController.xib in Resources */,
+				D49D909A26A468DC0004B6DF /* MovieCreditCollectionViewCell.xib in Resources */,
+				D49452B626A3EC0700D49E64 /* LaunchScreen.storyboard in Resources */,
+				D47F733726A434C200C225EE /* MovieListTableViewCell.xib in Resources */,
+				D49452B326A3EC0700D49E64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452BA26A3EC0700D49E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452C526A3EC0700D49E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B2FF2E1CD23F28ECC84317C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama-Yogesh HungamaUITests/Pods-Yogesh Hungama-Yogesh HungamaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama-Yogesh HungamaUITests/Pods-Yogesh Hungama-Yogesh HungamaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama-Yogesh HungamaUITests/Pods-Yogesh Hungama-Yogesh HungamaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551C90087C09BF9B40511C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogesh Hungama-Yogesh HungamaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAF2B717DB5EC4C5C82C3BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama/Pods-Yogesh Hungama-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama/Pods-Yogesh Hungama-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yogesh Hungama/Pods-Yogesh Hungama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC579013575C1693796A14B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogesh HungamaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F039783F6BC8A77A3BFCADB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogesh Hungama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D494529F26A3EC0500D49E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49D909926A468DC0004B6DF /* MovieCreditCollectionViewCell.swift in Sources */,
+				D446639526A4635000314483 /* MovieCreditClass.swift in Sources */,
+				D47F732526A4307800C225EE /* Extension.swift in Sources */,
+				D49452E726A3EC5900D49E64 /* MovieListViewController.swift in Sources */,
+				D47F72E626A41A5100C225EE /* MovieClass.swift in Sources */,
+				D49452A726A3EC0500D49E64 /* AppDelegate.swift in Sources */,
+				D47F734E26A44C8400C225EE /* MovieGenre.swift in Sources */,
+				D47F735326A4509400C225EE /* MovieLanguage.swift in Sources */,
+				D47F730226A427D100C225EE /* MovieListVM.swift in Sources */,
+				D47F72DD26A4161200C225EE /* Constant.swift in Sources */,
+				D446639A26A4646600314483 /* MovieDetailVM.swift in Sources */,
+				D49D90AB26A4AD7E0004B6DF /* UserdefaultsClass.swift in Sources */,
+				D47F72D426A415E500C225EE /* NetworkServices.swift in Sources */,
+				D47F733626A434C200C225EE /* MovieListTableViewCell.swift in Sources */,
+				D47F72FD26A4275100C225EE /* ProgressDelegates.swift in Sources */,
+				D47F734426A446A800C225EE /* MovieDetailViewController.swift in Sources */,
+				D49452B126A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452B826A3EC0700D49E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49452C126A3EC0700D49E64 /* Yogesh_HungamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49452C326A3EC0700D49E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49452CC26A3EC0700D49E64 /* Yogesh_HungamaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49452BE26A3EC0700D49E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49452A226A3EC0500D49E64 /* Yogesh Hungama */;
+			targetProxy = D49452BD26A3EC0700D49E64 /* PBXContainerItemProxy */;
+		};
+		D49452C926A3EC0700D49E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49452A226A3EC0500D49E64 /* Yogesh Hungama */;
+			targetProxy = D49452C826A3EC0700D49E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49452B426A3EC0700D49E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49452B526A3EC0700D49E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49452CE26A3EC0700D49E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D49452CF26A3EC0700D49E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49452D126A3EC0700D49E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3AC657BD52B91705363AFC /* Pods-Yogesh Hungama.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh Hungama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-Hungama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49452D226A3EC0700D49E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61570C71167C3F04D92CB5FA /* Pods-Yogesh Hungama.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh Hungama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-Hungama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D49452D426A3EC0700D49E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7406440E7C76F224BA3DACF1 /* Pods-Yogesh HungamaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh HungamaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-HungamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yogesh Hungama.app/Yogesh Hungama";
+			};
+			name = Debug;
+		};
+		D49452D526A3EC0700D49E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1423C6542C9F011021B98187 /* Pods-Yogesh HungamaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh HungamaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-HungamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yogesh Hungama.app/Yogesh Hungama";
+			};
+			name = Release;
+		};
+		D49452D726A3EC0700D49E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D09DBA0B2F54D7BF8E56FF /* Pods-Yogesh Hungama-Yogesh HungamaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh HungamaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-HungamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yogesh Hungama";
+			};
+			name = Debug;
+		};
+		D49452D826A3EC0700D49E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E01AC9AD43D18EF70FE1B10 /* Pods-Yogesh Hungama-Yogesh HungamaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yogesh HungamaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yogesh-HungamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yogesh Hungama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D494529E26A3EC0500D49E64 /* Build configuration list for PBXProject "Yogesh Hungama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49452CE26A3EC0700D49E64 /* Debug */,
+				D49452CF26A3EC0700D49E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49452D026A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh Hungama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49452D126A3EC0700D49E64 /* Debug */,
+				D49452D226A3EC0700D49E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49452D326A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh HungamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49452D426A3EC0700D49E64 /* Debug */,
+				D49452D526A3EC0700D49E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49452D626A3EC0700D49E64 /* Build configuration list for PBXNativeTarget "Yogesh HungamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49452D726A3EC0700D49E64 /* Debug */,
+				D49452D826A3EC0700D49E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D49452AF26A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D49452B026A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodel */,
+			);
+			currentVersion = D49452B026A3EC0500D49E64 /* Yogesh_Hungama.xcdatamodel */;
+			path = Yogesh_Hungama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D494529B26A3EC0500D49E64 /* Project object */;
+}

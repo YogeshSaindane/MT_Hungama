@@ -1,0 +1,6 @@
+framework module Pods_Yogesh_Hungama_Yogesh_HungamaUITests {
+  umbrella header "Pods-Yogesh Hungama-Yogesh HungamaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
